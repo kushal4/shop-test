@@ -14,8 +14,8 @@ import { Shop } from "./simpleSchemas.js";
  */
 export default async function register(app) {
   await app.registerPlugin({
-    label: "Shops",
-    name: "shops",
+    label: "shop-test",
+    name: "ShopTest",
     version: pkg.version,
     collections: {
       Shops: {
